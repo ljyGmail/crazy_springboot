@@ -13,6 +13,15 @@ public class Book {
     private String author;
     private double price;
 
+    public Book() {
+    }
+
+    public Book(String title, String author, double price) {
+        this.title = title;
+        this.author = author;
+        this.price = price;
+    }
+
     public Integer getId() {
         return id;
     }

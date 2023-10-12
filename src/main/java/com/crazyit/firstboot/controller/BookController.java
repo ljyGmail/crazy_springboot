@@ -38,7 +38,7 @@ public class BookController {
         return "redirect:listBooks";
     }
 
-    @PostMapping("/rest/book")
+    @PostMapping("/rest/books")
     @ResponseBody
     public ResponseEntity<Map<String, String>> restAddBook(@RequestBody Book book) {
         bookService.addBook(book);
