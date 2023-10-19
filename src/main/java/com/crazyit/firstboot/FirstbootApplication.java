@@ -24,6 +24,9 @@ public class FirstbootApplication {
         application.setLazyInitialization(false);
         Banner banner = (environment, sourceClass, out) -> out.println("My Spring Boot");
         application.setBanner(banner);
+        // 2.1.9 创建非Web应用
+        // 设置创建非Web应用
+        // application.setWebApplicationType(WebApplicationType.NONE);
         application.run(args);
     }
 }
