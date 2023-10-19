@@ -1,1 +1,10 @@
 org.springframework.boot.diagnostics.FailureAnalyzer=com.crazyit.firstboot.app.MyAnalyzer
+
+# 定义事件监听器
+org.springframework.context.ApplicationListener=com.crazyit.firstboot.app.MyListener
+
+# 定义初始化器
+org.springframework.context.ApplicationContextInitializer=com.crazyit.firstboot.app.MyInitializer
+
+# 定义配置环境后处理器
+org.springframework.boot.env.EnvironmentPostProcessor=com.crazyit.firstboot.app.FkEnvironmentPostProcessor
