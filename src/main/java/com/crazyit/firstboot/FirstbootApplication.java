@@ -15,6 +15,11 @@ import org.springframework.context.annotation.ImportResource;
 public class FirstbootApplication {
 
     public static void main(String[] args) {
+        // 2.2.2 利用JSON参数配置
+        System.setProperty("spring.application.json",
+                "{\"fkjava\":{\"name\":\"Crazy IT\", \"age\":30," +
+                "\"servers\":[\"fkjava.org\", \"crazyit.org\"]}}");
+
         // 创建Spring容器，运行Spring Boot应用
         // SpringApplication.run(FirstbootApplication.class, args);
 
