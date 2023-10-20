@@ -1,5 +1,6 @@
 package com.crazyit.firstboot.ch02;
 
+import jakarta.annotation.Resource;
 import org.fkit.app.Bird;
 import org.fkit.app.Dog;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,7 @@ import java.text.DateFormat;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.Map;
+import java.util.Properties;
 
 @RestController
 @RequestMapping("ch02")
@@ -44,6 +46,18 @@ public class Ch02Controller {
     @Value("${fkjava.servers[1]}")
     private String server2;
 
+    // 使用@Value注解访问配置属性(YAML)
+    @Value("${fkjava_yaml.server.name}")
+    private String serverName;
+    @Value("${fkjava_yaml.server.port}")
+    private String serverPort;
+    // @Value("${fkjava_yaml.age}")
+    // private String ageYaml;
+
+    // 指定将容器中的fkProps Bean注入fkProps实例变量
+    @Resource(name = "fkProps")
+    private Properties fkProps;
+
     @GetMapping("beans")
     public String beans() {
         return "Hello, " + dog.bark() + ", " +
@@ -65,5 +79,12 @@ public class Ch02Controller {
     public Map<String, String> jsonConfig() {
         return Map.of("名称", name, "年龄", age,
                 "服务器1", server1, "服务器2", server2);
+    }
+
+    @GetMapping("yamlConfig")
+    public String yamlConfig() {
+        return "名称: " + serverName + ", 端口: " + serverPort
+                // + ", 年龄: " + ageYaml;
+                + ", 年龄: " + fkProps.getProperty("fkjava_yaml.age");
     }
 }

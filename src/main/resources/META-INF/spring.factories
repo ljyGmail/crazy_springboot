@@ -7,4 +7,7 @@ org.springframework.context.ApplicationListener=com.crazyit.firstboot.app.MyList
 org.springframework.context.ApplicationContextInitializer=com.crazyit.firstboot.app.MyInitializer
 
 # 定义配置环境后处理器
-org.springframework.boot.env.EnvironmentPostProcessor=com.crazyit.firstboot.app.FkEnvironmentPostProcessor
+# org.springframework.boot.env.EnvironmentPostProcessor=com.crazyit.firstboot.app.FkEnvironmentPostProcessor
+
+# 定义配置环境后处理器(YAML)
+# org.springframework.boot.env.EnvironmentPostProcessor=com.crazyit.firstboot.app.YamlFkEnvironmentPostProcessor

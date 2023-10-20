@@ -1,0 +1,6 @@
+fkjava_yaml:
+  name: "疯狂软件-yml"
+  age: 40
+  servers:
+    - www.fkjava_yml.org
+    - www.crazyit_yml.org
