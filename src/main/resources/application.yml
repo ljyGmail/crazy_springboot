@@ -1,0 +1,4 @@
+spring:
+  config:
+    # 指定导入类加载路径下的fk/fk.yml文件
+    import: optional:classpath:/fk/fk.yml
