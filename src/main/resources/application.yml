@@ -1,0 +1,10 @@
+org:
+  crazyit:
+    enabled: true
+    name: 疯狂Java
+    remote-address: 192.168.1.188
+    item:
+      brand: Apple
+      comments:
+        - Good
+        - Excellent
