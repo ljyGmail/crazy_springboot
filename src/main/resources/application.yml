@@ -1,0 +1,8 @@
+fkjava:
+  person:
+    name: "疯狂Spring Boot终极讲义"
+    age: 30
+    hobbies:
+      - Java
+      - Python
+      - Ruby
