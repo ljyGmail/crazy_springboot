@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/crazy_springboot?serverTimezone=UTC
+    username: root
+    password: 445566hh
+  jpa:
+    show-sql: true
+    generate-ddl: true
