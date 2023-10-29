@@ -1,2 +1,11 @@
 server:
   port: 9090
+
+crazyit:
+  list:
+    - name: 疯狂Spring Boot终极讲义
+      age: 60
+  map:
+    server:
+      name: 服务器级
+      age: 70

@@ -4,3 +4,14 @@ spring:
     url: jdbc:mysql://localhost:3306/crazy_springboot?serverTimezone=UTC
     username: root
     password: 445566hh
+
+crazyit:
+  list:
+    - name: python
+      age: 10
+    - name: java
+      age: 20
+  map:
+    prod:
+      name: spring
+      age: 15
