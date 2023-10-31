@@ -1,0 +1,9 @@
+logging:
+  level:
+    # 将com.crazyit.firstboot包及其子包下的所有日志级别设为TRACE
+    com.crazyit.firstboot: trace
+  file:
+    # 指定日志文件的输出目录，默认文件名为spring.log
+     path: logs/
+    # 指定日志文件
+#    name: my.log
