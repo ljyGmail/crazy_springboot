@@ -1,0 +1,7 @@
+logging:
+  group:
+    one: com.crazyit.firstboot.ch02.one
+    two: com.crazyit.firstboot.ch02.two
+  level:
+    one: trace
+    two: info
