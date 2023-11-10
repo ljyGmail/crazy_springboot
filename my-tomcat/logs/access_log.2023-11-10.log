@@ -1,0 +1,22 @@
+[10/Nov/2023:13:12:11 +0900] 0:0:0:0:0:0:0:1 "-" 400 {0 ms}
+[10/Nov/2023:13:12:11 +0900] 0:0:0:0:0:0:0:1 "-" 400 {0 ms}
+[10/Nov/2023:13:12:12 +0900] 0:0:0:0:0:0:0:1 "GET /listBooks HTTP/2.0" 200 {804979 ms}
+[10/Nov/2023:13:12:12 +0900] 0:0:0:0:0:0:0:1 "GET /webjars/bootstrap/4.5.3/css/bootstrap.min.css HTTP/2.0" 200 {76170 ms}
+[10/Nov/2023:13:12:12 +0900] 0:0:0:0:0:0:0:1 "GET /webjars/jquery/3.5.1/jquery.js HTTP/2.0" 200 {77823 ms}
+[10/Nov/2023:13:12:12 +0900] 0:0:0:0:0:0:0:1 "GET /webjars/bootstrap/4.5.3/css/bootstrap.min.css.map HTTP/2.0" 200 {108836 ms}
+[10/Nov/2023:13:12:27 +0900] 0:0:0:0:0:0:0:1 "GET /listBooks HTTP/2.0" 200 {13807 ms}
+[10/Nov/2023:13:12:27 +0900] 0:0:0:0:0:0:0:1 "GET /webjars/bootstrap/4.5.3/css/bootstrap.min.css HTTP/2.0" 200 {26223 ms}
+[10/Nov/2023:13:12:27 +0900] 0:0:0:0:0:0:0:1 "GET /webjars/jquery/3.5.1/jquery.js HTTP/2.0" 200 {39389 ms}
+[10/Nov/2023:13:12:27 +0900] 0:0:0:0:0:0:0:1 "GET /webjars/bootstrap/4.5.3/css/bootstrap.min.css.map HTTP/2.0" 200 {35576 ms}
+[10/Nov/2023:13:12:30 +0900] 0:0:0:0:0:0:0:1 "GET /listBooks HTTP/2.0" 200 {15965 ms}
+[10/Nov/2023:13:12:30 +0900] 0:0:0:0:0:0:0:1 "GET /webjars/bootstrap/4.5.3/css/bootstrap.min.css HTTP/2.0" 200 {18179 ms}
+[10/Nov/2023:13:12:30 +0900] 0:0:0:0:0:0:0:1 "GET /webjars/jquery/3.5.1/jquery.js HTTP/2.0" 200 {27148 ms}
+[10/Nov/2023:13:12:30 +0900] 0:0:0:0:0:0:0:1 "GET /webjars/bootstrap/4.5.3/css/bootstrap.min.css.map HTTP/2.0" 200 {34071 ms}
+[10/Nov/2023:13:12:37 +0900] 0:0:0:0:0:0:0:1 "GET /listBooks HTTP/2.0" 200 {16819 ms}
+[10/Nov/2023:13:12:37 +0900] 0:0:0:0:0:0:0:1 "GET /webjars/bootstrap/4.5.3/css/bootstrap.min.css HTTP/2.0" 200 {23503 ms}
+[10/Nov/2023:13:12:37 +0900] 0:0:0:0:0:0:0:1 "GET /webjars/jquery/3.5.1/jquery.js HTTP/2.0" 200 {28869 ms}
+[10/Nov/2023:13:12:38 +0900] 0:0:0:0:0:0:0:1 "GET /webjars/bootstrap/4.5.3/css/bootstrap.min.css.map HTTP/2.0" 200 {36175 ms}
+[10/Nov/2023:13:12:47 +0900] 0:0:0:0:0:0:0:1 "GET /listBooks HTTP/2.0" 200 {10561 ms}
+[10/Nov/2023:13:12:47 +0900] 0:0:0:0:0:0:0:1 "GET /webjars/bootstrap/4.5.3/css/bootstrap.min.css HTTP/2.0" 200 {18095 ms}
+[10/Nov/2023:13:12:47 +0900] 0:0:0:0:0:0:0:1 "GET /webjars/jquery/3.5.1/jquery.js HTTP/2.0" 200 {27175 ms}
+[10/Nov/2023:13:12:47 +0900] 0:0:0:0:0:0:0:1 "GET /webjars/bootstrap/4.5.3/css/bootstrap.min.css.map HTTP/2.0" 200 {24984 ms}
