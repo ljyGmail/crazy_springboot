@@ -1,0 +1,21 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>服务器错误</title>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.5.3/css/bootstrap.min.css}">
+    <script type="text/javascript" th:src="@{/webjars/jquery/3.5.1/jquery.js}"></script>
+</head>
+<body>
+<div class="container">
+    <div class="alert alert-danger">
+        <div>status: <span th:text="${status}">status</span></div>
+        <div>error: <span th:text="${error}">error</span></div>
+        <div>exception: <span th:text="${exception}">exception</span></div>
+        <div>message: <span th:text="${message}">message</span></div>
+        <div>path: <span th:text="${path}">path</span></div>
+        <div>trace: <span th:text="${trace}">trace</span></div>
+    </div>
+</div>
+</body>
+</html>
