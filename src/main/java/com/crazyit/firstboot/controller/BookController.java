@@ -18,7 +18,7 @@ public class BookController {
     @Autowired
     private BookService bookService;
 
-    @GetMapping("/")
+    @GetMapping("/hello")
     public String index(Model model) {
         model.addAttribute("tip", "欢迎访问第一个Spring Boot应用");
         return "hello";
