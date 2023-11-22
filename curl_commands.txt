@@ -1,0 +1,12 @@
+# 添加数据
+curl -H "Content-Type: application/json" -X POST -d @item.json http://localhost:8080/item
+# 根据id查询
+curl http://localhost:8080/item/1
+# 修改数据
+curl -H "Content-Type: application/json" -X PUT -d @item_update.json http://localhost:8080/item
+# 删除数据
+curl -X DELETE http://localhost:8080/item/1
+# 查询列表
+curl http://localhost:8080/item?size=3
+# 周期性生成数据
+curl http://localhost:8080/item -i -H "Accept: application/stream+json"
