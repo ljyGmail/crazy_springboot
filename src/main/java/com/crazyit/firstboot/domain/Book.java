@@ -1,23 +1,19 @@
 package com.crazyit.firstboot.domain;
 
-import jakarta.persistence.*;
-
-@Entity
-@Table(name = "book_inf")
 public class Book {
-    @Id
-    @Column(name = "book_id")
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String title;
+    private String cover;
     private String author;
-    private double price;
+    private Double price;
 
     public Book() {
     }
 
-    public Book(String title, String author, double price) {
+    public Book(Integer id, String title, String cover, String author, Double price) {
+        this.id = id;
         this.title = title;
+        this.cover = cover;
         this.author = author;
         this.price = price;
     }
@@ -38,6 +34,14 @@ public class Book {
         this.title = title;
     }
 
+    public String getCover() {
+        return cover;
+    }
+
+    public void setCover(String cover) {
+        this.cover = cover;
+    }
+
     public String getAuthor() {
         return author;
     }
@@ -46,11 +50,11 @@ public class Book {
         this.author = author;
     }
 
-    public double getPrice() {
+    public Double getPrice() {
         return price;
     }
 
-    public void setPrice(double price) {
+    public void setPrice(Double price) {
         this.price = price;
     }
 }
